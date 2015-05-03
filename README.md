@@ -1,4 +1,4 @@
-# Ese032-ElencoStudentiSalvaFile
+# Ese033-ElencoStudentiSalvaFile
 
 Realizza un programma C che richieda all'utente di inserire i dati di N studenti, 
 con N definito dal programmatore pari a 3, e li salvi nel file `elenco.dat`.

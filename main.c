@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
     
     if(outf == NULL) {
         fprintf(stderr, "Impossibile aprire il file %s\n", FNAME);
-        exit(-1);
+        exit(1);
     }
     else {
         printf("\nFile %s aperto\n", FNAME);
@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     written = fwrite(elenco, sizeof(studente), N, outf);
     if(written != N) {
         fprintf(stderr, "Errore di scrittura nel file\n");
-        exit(-2);
+        exit(2);
     }
     else {
         printf("Dati scritti su %s\n", FNAME);
